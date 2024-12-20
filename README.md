@@ -28,4 +28,16 @@ Note that the stock data has been downloaded from Kaggle.
 ## Project Structure
 
 
+<<<<<<< HEAD
+=======
+-Load raw CSV files (such as stock price history or transactional data).
+
+-Clean and preprocess the data.
+
+-Compute relevant metrics (daily returns, cumulative returns, moving averages).
+
+-Perform simple time-series analyses and create summary reports.
+
+-Visualize trends in prices, returns, and potentially correlation between assets.
+>>>>>>> 2799d1297e21ee1158e693881dc1f9e24e6431e1
 
