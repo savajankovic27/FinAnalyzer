@@ -18,8 +18,6 @@ def exponential_moving_average(df: pd.DataFrame, span: int = 20, price_col: str 
 def relative_strength_index(df: pd.DataFrame, window: int = 14, price_col: str = "Adj Close") -> pd.DataFrame:
     """
     Compute RSI (Relative Strength Index).
-
-    RSI measures the magnitude of recent price changes to evaluate overbought or oversold conditions.
     """
     delta = df[price_col].diff()
     gain = (delta.where(delta > 0, 0))
