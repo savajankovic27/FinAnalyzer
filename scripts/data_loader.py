@@ -1,28 +1,9 @@
-"""
-data_loader.py
-
-This script provides functionality to load and preprocess stock data from CSV files.
-"""
 
 import os
 import pandas as pd
 
 def load_stock_data(symbol: str, data_dir: str = "../Data") -> pd.DataFrame:
-    """
-    Load stock data for a given symbol from a CSV file and return a cleaned DataFrame.
-
-    Parameters
-    ----------
-    symbol : str
-        Stock ticker symbol (e.g. 'AAPL').
-    data_dir : str, optional
-        Directory where CSV files are stored, by default "../Data".
-
-    Returns
-    -------
-    pd.DataFrame
-        A DataFrame containing the stock data with datetime as an index.
-    """
+    ## Importing the data from the AAPL Csv (or any other)
     file_path = os.path.join(data_dir, f"{symbol}.csv")
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"No CSV found for symbol: {symbol}")
