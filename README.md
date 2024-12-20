@@ -3,6 +3,8 @@
 **Project Overview:**  
 This project provides a full pipeline for analyzing stock price data, computing technical indicators, building predictive models, and creating interactive dashboards. I have used `AAPL` (Apple Inc.) as an example, but the framework can easily be extended to other tickers that you'd like to add. 
 
+Initially started in April 2024, I've developed this project over time to showcase my skills and abilities I've obtained throughout my work experience at Sanofi, so this is the first functioning version I've uploaded to Github since. I plan on updating this repository on a regular and introduce new concepts with regards to the stock analysis and beyond. Have fun analyzing!
+
 Note that the stock data has been downloaded from Kaggle. 
 
 ## Features
