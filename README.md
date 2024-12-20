@@ -25,19 +25,8 @@ Note that the stock data has been downloaded from Kaggle.
 - **Interactive Dashboard:**  
   Build a Panel-based dashboard for selecting stocks, adjusting indicators, and exploring data visually. Not fully developed... yet
 
-## Project Structure
+  <img width="766" alt="Screenshot 2024-12-20 at 12 40 18 AM" src="https://github.com/user-attachments/assets/d655e52a-7bb8-40cf-9eff-7ec45dc2c29b" />
 
 
-<<<<<<< HEAD
-=======
--Load raw CSV files (such as stock price history or transactional data).
 
--Clean and preprocess the data.
-
--Compute relevant metrics (daily returns, cumulative returns, moving averages).
-
--Perform simple time-series analyses and create summary reports.
-
--Visualize trends in prices, returns, and potentially correlation between assets.
->>>>>>> 2799d1297e21ee1158e693881dc1f9e24e6431e1
-
+  <img width="596" alt="Screenshot 2024-12-20 at 12 40 36 AM" src="https://github.com/user-attachments/assets/33cf4c11-5629-4b05-9367-567f7517b453" />
